@@ -16,3 +16,12 @@
   // width: 1000px;
   width: f.rem(1000px);
 }
+
+.text {
+  @include m.fluid-fs(
+    $min-w: 768px,
+    $max-w: 1440px,
+    $min-fs: 12px,
+    $max-fs: 28px
+  );
+}
