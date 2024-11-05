@@ -27,14 +27,15 @@ body {
           align-items: center;
 }
 
-.title {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.4;
-  letter-spacing: 0.03em;
-  text-align: center;
+/*  Get values from map */
+body {
+  background-color: #e9e9e9;
 }
 
-.container {
-  width: 62.5rem;
+/*
+  reuse colors map to style button
+*/
+.button {
+  color: #8e3329;
+  background-color: #e9e9e9;
 }
