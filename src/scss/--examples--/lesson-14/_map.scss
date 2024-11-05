@@ -1,0 +1,9 @@
+@use "./colors" as c;
+
+/*
+  reuse colors map to style button
+*/
+.button {
+  color: c.get-color("primary");
+  background-color: c.get-color("background");
+}
